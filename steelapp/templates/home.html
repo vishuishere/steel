@@ -11,17 +11,17 @@
   <meta name="author" content="">
   <meta name="keywords" content="">
   <meta name="description" content="">
-  <link rel="stylesheet" type="text/css" href="./static/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./static/style.css">
-  <link rel="stylesheet" href="./static/swiper-bundle.min.css">
-  <link rel="stylesheet" type="text/css" href="./static/aos.css">
-  <link href="./static/date-time-picker-component.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+  <link rel="stylesheet" href="{% static 'swiper-bundle.min.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'aos.css' %}">
+  <link href="{% static 'date-time-picker-component.min.css' %}" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com/">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-  <link rel="stylesheet" href="./static/css2">
+  <link rel="stylesheet" href="{% static 'css2' %}">
   <!-- script
     ================================================== -->
-  <script src="./static/modernizr.js.download"></script>
+  <script src="{% static 'modernizr.js.download' %}"></script>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#header-nav" tabindex="0" data-aos-easing="ease" data-aos-duration="2500" data-aos-delay="0">
@@ -69,7 +69,7 @@
       <nav id="header-nav" class="navbar navbar-expand-lg p-3 py-4 container-fluid border-bottom position-fixed bg-white">
         <div class="container-fluid">
           <a class="navbar-brand" href="https://demo.templatesjungle.com/bamboo/index.html">
-            <img src="./static/logo.png" class="logo">
+            <img src="{% static 'logo.png' %}" class="logo">
           </a>
           <button class="navbar-toggler d-flex d-lg-none order-3 p-2 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <svg class="navbar-icon text-black">
@@ -162,13 +162,13 @@
             </a>
           </div>
           <div class="col-lg-6">
-            <img src="./static/banner-img.png" alt="" class="img-fluid z-5">
+            <img src="{% static 'banner-img.png' %}" alt="" class="img-fluid z-5">
           </div>
         </div>
       </div>
     </section>
     <div class="bg-pattern position-absolute top-0 end-0">
-      <img src="./static/bg-pattern1.png" alt="" class="img-fluid" style="background-repeat: no-repeat; overflow: hidden;">
+      <img src="{% static 'bg-pattern1.png' %}" alt="" class="img-fluid" style="background-repeat: no-repeat; overflow: hidden;">
     </div>
 
     <section id="service" class="bg-light padding-medium">
@@ -260,7 +260,7 @@
         </div>
         <div class="row g-md-5 flex-row-reverse d-flex justify-content-center align-items-top mt-5">
           <div class="col-lg-6 mt-0 justify-content-top">
-            <img src="./static/about2.jpg" alt="" class="img-fluid rounded-3">
+            <img src="{% static 'about2.jpg' %}" alt="" class="img-fluid rounded-3">
             <h5 class="mt-3">Enim leo leo non in viverra adipiscing nisi sed dictum nisi blandit.</h5>
             <p class="fs-5 mt-2">
               Gravida feugiat viverra porttitor semper in faucibus ut. Ipsum, vel aliquet purus urna placerat convallis
@@ -275,12 +275,12 @@
             </a>
           </div>
           <div class="col-lg-6 mt-0">
-            <img src="./static/about1.jpg" alt="" class="img-fluid rounded-3">
+            <img src="{% static 'about1.jpg' %}" alt="" class="img-fluid rounded-3">
           </div>
         </div>
       </div>
       <div class="bg-pattern position-absolute top-0 start-0">
-        <img src="./static/bg-pattern2.png" alt="" class="img-fluid" style="background-repeat: no-repeat; overflow: hidden;">
+        <img src="{% static 'bg-pattern2.png' %}" alt="" class="img-fluid" style="background-repeat: no-repeat; overflow: hidden;">
       </div>
   </section></div>
   
@@ -327,7 +327,7 @@
         <div class="col-lg-4 col-md-6 item building" style="position: absolute; left: 0px; top: 0px;">
           <div class="projects-content mx-auto">
             <a href="https://demo.templatesjungle.com/bamboo/project-single.html">
-              <img src="./static/projects-item1.jpg" class="rounded-3 " alt="building">
+              <img src="{% static 'projects-item1.jpg' %}" class="rounded-3 " alt="building">
             </a>
           </div>
           <h3 class="fs-3 text-center mt-3 mb-5">
@@ -337,7 +337,7 @@
         <div class="col-lg-4 col-md-6 item renovate" style="position: absolute; left: 433.325px; top: 0px;">
           <div class="projects-content mx-auto">
             <a href="https://demo.templatesjungle.com/bamboo/project-single.html">
-              <img src="./static/projects-item2.jpg" class="rounded-3 img-fluid" alt="building">
+              <img src="{% static 'projects-item2.jpg' %}" class="rounded-3 img-fluid" alt="building">
             </a>
           </div>
           <h3 class="fs-3 text-center mt-3 mb-5">
@@ -347,7 +347,7 @@
         <div class="col-lg-4 col-md-6 item industry" style="position: absolute; left: 866.65px; top: 0px;">
           <div class="projects-content mx-auto">
             <a href="https://demo.templatesjungle.com/bamboo/project-single.html">
-              <img src="./static/projects-item3.jpg" class="rounded-3 img-fluid" alt="building">
+              <img src="{% static 'projects-item3.jpg' %}" class="rounded-3 img-fluid" alt="building">
             </a>
           </div>
           <h3 class="fs-3 text-center mt-3 mb-5">
@@ -357,7 +357,7 @@
         <div class="col-lg-4 col-md-6 item industry" style="position: absolute; left: 0px; top: 397.6px;">
           <div class="projects-content">
             <a href="https://demo.templatesjungle.com/bamboo/project-single.html">
-              <img src="./static/projects-item4.jpg" class="rounded-3 img-fluid" alt="building">
+              <img src="{% static 'projects-item4.jpg' %}" class="rounded-3 img-fluid" alt="building">
             </a>
           </div>
           <h3 class="fs-3 text-center mt-3 mb-5">
@@ -367,7 +367,7 @@
         <div class="col-lg-4 col-md-6 item road" style="position: absolute; left: 433.325px; top: 397.6px;">
           <div class="projects-content">
             <a href="https://demo.templatesjungle.com/bamboo/project-single.html">
-              <img src="./static/projects-item5.jpg" class="rounded-3 img-fluid" alt="building">
+              <img src="{% static 'projects-item5.jpg' %}" class="rounded-3 img-fluid" alt="building">
             </a>
           </div>
           <h3 class="fs-3 text-center mt-3 mb-5">
@@ -377,7 +377,7 @@
         <div class="col-lg-4 col-md-6 item building" style="position: absolute; left: 866.65px; top: 397.6px;">
           <div class="projects-content">
             <a href="https://demo.templatesjungle.com/bamboo/project-single.html">
-              <img src="./static/projects-item6.jpg" class="rounded-3 img-fluid" alt="building">
+              <img src="{% static 'projects-item6.jpg' %}" class="rounded-3 img-fluid" alt="building">
             </a>
           </div>
           <h3 class="fs-3 text-center mt-3 mb-5">
@@ -474,19 +474,19 @@
       </div>
       <div class="row mt-5 mt-lg-0">
         <div class="col-md-4 mb-4 mt-4">
-          <a href="https://demo.templatesjungle.com/bamboo/blog-single.html"><img src="./static/blog1.jpg" alt="image" class="img-fluid rounded-3"></a>
+          <a href="https://demo.templatesjungle.com/bamboo/blog-single.html"><img src="{% static 'blog1.jpg' %}" alt="image" class="img-fluid rounded-3"></a>
           <p class="blog text-capitalize mt-3 fw-semibold">feb 1, 2022 / buildings</p>
           <h4 class="blog-heading fw-semibold"><a href="https://demo.templatesjungle.com/bamboo/blog-single.html">Top 10 mindblowing architecture buildings in
               the world</a></h4>
         </div>
         <div class="col-md-4 mb-4 mt-4">
-          <a href="https://demo.templatesjungle.com/bamboo/blog-single.html"><img src="./static/blog2.jpg" alt="image" class="img-fluid rounded-3"></a>
+          <a href="https://demo.templatesjungle.com/bamboo/blog-single.html"><img src="{% static 'blog2.jpg' %}" alt="image" class="img-fluid rounded-3"></a>
           <p class="blog text-capitalize mt-3 fw-semibold">feb 1, 2022 / buildings</p>
           <h4 class="blog-heading fw-semibold"><a href="https://demo.templatesjungle.com/bamboo/blog-single.html">Amazing technologies that helped to create
               creatives works</a></h4>
         </div>
         <div class="col-md-4 mb-4 mt-4">
-          <a href="https://demo.templatesjungle.com/bamboo/blog-single.html"><img src="./static/blog3.jpg" alt="image" class="img-fluid rounded-3"></a>
+          <a href="https://demo.templatesjungle.com/bamboo/blog-single.html"><img src="{% static 'blog3.jpg' %}" alt="image" class="img-fluid rounded-3"></a>
           <p class="blog text-capitalize mt-3 fw-semibold">feb 1, 2022 / buildings</p>
           <h4 class="blog-heading fw-semibold"><a href="https://demo.templatesjungle.com/bamboo/blog-single.html">Top 100 best construction company around the
               world</a></h4>
@@ -504,7 +504,7 @@
     </div>
 
     <div class="bg-pattern position-absolute top-0 end-0">
-      <img src="./static/bg-pattern3.png" alt="" class="img-fluid" style="background-repeat: no-repeat; overflow: hidden;">
+      <img src="{% static 'bg-pattern3.png' %}" alt="" class="img-fluid" style="background-repeat: no-repeat; overflow: hidden;">
     </div>
   </section>
 
@@ -595,7 +595,7 @@
       <div class="row d-flex flex-wrap justify-content-between">
         <div class="col-lg-3 col-md-6 col-sm-6 pb-3">
           <div class="footer-menu">
-            <img src="./static/logo.png" alt="footer logo" class="pb-4">
+            <img src="{% static 'logo.png' %}" alt="footer logo" class="pb-4">
             <p class="fw-semibold">Vehicula at eget a arcu neque, ultricies liquet tempus.</p>
           </div>
         </div>
@@ -719,13 +719,13 @@
       </div>
     </div>
   </div>
-  <script src="./static/jquery-1.11.0.min.js.download"></script>
-  <script src="./static/swiper-bundle.min.js.download"></script>
-  <script type="text/javascript" src="./static/aos.js.download"></script>
-  <script type="text/javascript" src="./static/bootstrap.bundle.min.js.download"></script>
-  <script type="text/javascript" src="./static/plugins.js.download"></script>
-  <script type="text/javascript" src="./static/script.js.download"></script>
-  <script src="./static/iconify-icon.min.js.download"></script>
+  <script src="{% static 'jquery-1.11.0.min.js.download' %}"></script>
+  <script src="{% static 'swiper-bundle.min.js.download' %}"></script>
+  <script type="text/javascript" src="{% static 'aos.js.download' %}"></script>
+  <script type="text/javascript" src="{% static 'bootstrap.bundle.min.js.download' %}"></script>
+  <script type="text/javascript" src="{% static 'plugins.js.download' %}"></script>
+  <script type="text/javascript" src="{% static 'script.js.download' %}"></script>
+  <script src="{% static 'iconify-icon.min.js.download' %}"></script>
 
 
 </body></html>
